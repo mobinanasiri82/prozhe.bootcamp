@@ -1,0 +1,97 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color:rgb(0, 102, 255);
+}
+main{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+form{
+    width: 350px;
+    height: 220px;
+    border: 3px solid white;
+    border-radius: 11px;
+    -webkit-border-radius: 11px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 11px;
+    -o-border-radius: 11px;
+    background-color: white;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 13px;
+    gap: 16px;
+}
+
+.number-task{
+    padding-left: 20px;
+    padding-top: 20px;
+}
+.add{
+    font-size: 17px;
+    padding-inline: 10px;
+    padding-top: 25px;
+}
+
+.task-button .etebarsanji{
+    width: 87px;
+    min-height: 38px;
+    background-color: rgb(0, 89, 255);
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    color: white;
+    border: 2px solid white;
+    padding-top: 6px;
+    padding-bottom: 7px;
+    cursor: pointer;
+    font-size: 12px;
+    margin-left: 40px;
+    margin-top: 40px;
+    
+}
+.task-button .start{
+    width: 87px;
+    min-height: 38px;
+    background-color: rgb(0, 89, 255);
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    color: white;
+    border: 2px solid white;
+    padding-top: 5px;
+    padding-bottom: 6px;
+    display: none;
+}
+.text{
+    width: 80px;
+    min-height: 36px;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    border: 2px solid gray;
+    padding-top: 5px;
+    padding-bottom: 6px;
+    margin-left: 35px;
+    margin-top: 15px;
+}
+.taskp{
+    font-size: 17px;
+    padding-top: 50px;
+    padding-bottom: 26px;
+    padding-left: 66px;
+} 
